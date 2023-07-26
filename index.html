@@ -11,20 +11,24 @@
     <!-- daisy khala -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+
 </head>
-<body> 
+<body class=""> 
     <!-- nav -->
     <header>
         <nav>
             <div class="max-w-[1440px] mx-auto lg:bg-[#F85559;]  rounded-full ">
 
-                <div class="navbar h-auto lg:h-[120px] flex-row-reverse lg:flex-row ">
+                <div class="navbar h-auto lg:h-[120px] flex-row-reverse lg:flex-row  ">
                     <div class="  w-auto  ">
-                      <div class="dropdown   ">
+                      <div class="dropdown mr-2  ">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
                           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-24 -ml-9">
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-[103px] -ml-9">
                           <li><a>Home</a></li>
                           <li><a>About us</a></li>
                           <li><a>Shop</a></li>
@@ -50,11 +54,11 @@
                     <!-- sm ml disi  -->
                     <div class=" ml-0 lg:ml-[200px] flex
                     
-                    items-center gap-1 lg:gap-4 mr-80 lg:mr-0">
+                    items-center gap-1 lg:gap-4 mr-56 lg:mr-0">
 
                         <img src="./images/logo.png" alt="">
                         
-                        <h2 class=" lg:text-[40px] font-bold lg:text-white"><span class=" ">Fruit Burst</span></h2>
+                        <h2 class="text-[20px] lg:text-[40px] font-bold lg:text-white"><pre class=" font-extrabold">Fruit Burst</pre></h2>
                     </div>
                     <div class="navbar-end flex-1 pr-12 relative">
                       <input type="search " placeholder="Search here" class=" hidden lg:block pt-4 pb-4 pl-20 rounded-full"
@@ -559,7 +563,7 @@
         <div>
             <!-- back  img -->
             <div class="max-w-[1440px] mx-auto relative my-24">
-                <img class=" h-[1500px] lg:h-auto w-auto " src="./images/banner1.png" alt="">
+                <img class=" h-[1550px] lg:h-auto w-auto " src="./images/banner1.png" alt="">
                 <!-- input text positionn  -->
                 <div class="absolute h-full w-full top-24 ">
                     <p class="text-white text-center  sm:text-sm font-extrabold lg:text-5xl mb-5">Meet the team section</p>
@@ -641,7 +645,7 @@
             <div class="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 my-8 ">
                 <div>
                     <!-- 1 -->
-                    <div class="flex gap-5 items-center mb-10">
+                    <div class="flex flex-col  text-center lg:text-left lg:flex-row gap-5 items-center mb-10">
 
                       <!-- svg -->
                       <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none">
@@ -653,7 +657,7 @@
                         <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p></div>
                     </div>
                     <!-- 2 -->
-                    <div class="flex gap-5 items-center mb-10">
+                    <div class="flex flex-col  text-center lg:text-left lg:flex-row gap-5 items-center mb-10">
                       <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none">
                         <path d="M18.8879 9.976C19.0919 9.312 19.1999 8.64 19.1999 7.976C19.1999 5.404 17.2279 3.312 14.7999 3.312C13.1479 3.312 11.6319 4.212 10.7999 5.62C9.9679 4.212 8.4519 3.312 6.7999 3.312C4.3719 3.312 2.3999 5.404 2.3999 7.976C2.3999 13.84 10.2759 18.104 10.6119 18.284C10.6719 18.316 10.7359 18.332 10.7999 18.332C10.8639 18.332 10.9279 18.316 10.9879 18.284C10.9999 18.276 11.2879 18.124 11.7439 17.84C13.3439 19.52 15.2719 20.568 15.4119 20.64C15.4719 20.672 15.5359 20.688 15.5999 20.688C15.6639 20.688 15.7279 20.672 15.7879 20.64C16.0239 20.516 21.5999 17.492 21.5999 13.32C21.5999 11.628 20.4199 10.228 18.8879 9.976ZM10.7999 17.472C9.6119 16.792 3.1999 12.884 3.1999 7.976C3.1999 5.844 4.8159 4.112 6.7999 4.112C8.1399 4.112 9.7799 4.908 10.4239 6.692C10.4799 6.852 10.6319 6.956 10.7999 6.956C10.9679 6.956 11.1199 6.852 11.1759 6.692C11.8199 4.908 13.4599 4.112 14.7999 4.112C16.7839 4.112 18.3999 5.844 18.3999 7.976C18.3999 8.632 18.2799 9.296 18.0519 9.956C17.0559 10.06 16.1559 10.612 15.5999 11.444C14.9799 10.516 13.9319 9.932 12.7999 9.932C11.0359 9.932 9.5999 11.452 9.5999 13.32C9.5999 14.796 10.2959 16.124 11.2039 17.232C11.0399 17.332 10.8999 17.416 10.7999 17.472ZM15.5999 19.828C14.6439 19.272 10.3999 16.616 10.3999 13.32C10.3999 11.892 11.4759 10.732 12.7999 10.732C13.6959 10.732 14.7919 11.264 15.2239 12.46C15.2799 12.62 15.4319 12.724 15.5999 12.724C15.7679 12.724 15.9199 12.62 15.9759 12.46C16.4079 11.268 17.5039 10.732 18.3999 10.732C19.7239 10.732 20.7999 11.892 20.7999 13.32C20.7999 16.616 16.5559 19.272 15.5999 19.828Z" fill="black"/>
                       </svg>
@@ -661,7 +665,7 @@
                         <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p></div>
                     </div>
                     <!-- 3 -->
-                    <div class="flex gap-5 items-center">
+                    <div class="flex flex-col  text-center lg:text-left lg:flex-row gap-5 items-center">
 
 
                       <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" >
@@ -695,7 +699,7 @@
 
 
                     <!-- 1 -->
-                    <div class="flex gap-5 items-center mb-10">
+                    <div class="flex flex-col-reverse text-center lg:flex-row lg:text-right gap-5 items-center mb-10">
                      
                       
 
@@ -724,7 +728,7 @@
 
                     </div>
                     <!-- 2 -->
-                    <div class="flex gap-5 items-center mb-10">
+                    <div class="flex flex-col-reverse text-center lg:flex-row lg:text-right gap-5 items-center mb-10">
                       <div><h1 class="text-2xl font-extrabold my-5 "><span >Sustainable</span> <span class="border-b-2 border-black"> Practice</span></h1>
                         <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p></div>
 
@@ -736,7 +740,7 @@
                       
                     </div>
                     <!-- 3 -->
-                    <div class="flex gap-5 items-center ">
+                    <div class="flex flex-col-reverse text-center lg:flex-row lg:text-right gap-5 items-center ">
                       <div><h1 class="text-2xl font-extrabold my-5 "><span >The Benefits </span><span class="border-b-2 border-black ">Only</span></h1>
                         <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p></div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none">
@@ -762,7 +766,7 @@
             <!-- logo -->
             <div class="flex justify-center items-center lg:gap-2"><img src="./images/logo.png" alt="">
                         
-                <h2  class="text-[40px] font-bold">Fruit Burst</h2></div>
+                <h2  class=" text-[25px] lg:text-[40px] font-bold">Fruit Burst</h2></div>
            <!-- home etc -->
            <div class="flex gap-2 lg:gap-16">
             <p>Home</p>
