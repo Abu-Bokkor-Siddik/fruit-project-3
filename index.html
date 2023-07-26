@@ -22,7 +22,7 @@
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
                           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-24">
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-24 -ml-9">
                           <li><a>Home</a></li>
                           <li><a>About us</a></li>
                           <li><a>Shop</a></li>
@@ -169,7 +169,7 @@
             </div>
         </section>
         <section>
-            <div class="hidden lg:none">
+            <div class="hidden lg:block">
 
 
               <div class="w lg:max-w-[1196px]  lg:max-h-[250px] mx-auto bg-white flex gap-[90px]  top-[690px] left-64
@@ -302,7 +302,7 @@
     </div>
   </form>
 </dialog>
-                      </div>
+       </div>
                       <!--end  -->
                     </div>
                   </div>
@@ -334,9 +334,10 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                           </div><br>
                           
-                        <!-- <button class="btn btn-primary">Buy Now</button> -->
+                        
                       </div>
-                      <div><a href="
+                      <div>
+                        <a href="
                         #">Details</a></div>
                     </div>
                   </div>
@@ -414,13 +415,14 @@
         <div>
             <!-- back  img -->
             <div class="max-w-[1440px] mx-auto relative my-24">
-                <img class="h-auto w-auto " src="./images/banner1.png" alt="">
+                <img class=" h-[1500px] lg:h-auto w-auto " src="./images/banner1.png" alt="">
                 <!-- input text positionn  -->
                 <div class="absolute h-full w-full top-24 ">
-                    <p class="text-white text-center text-5xl">Meet the team section</p>
-                    <p class="text-white text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p class="text-white text-center  sm:text-sm font-extrabold lg:text-5xl mb-5">Meet the team section</p>
+                    <p class="text-white text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br class="hidden lg:inline-block"> Latin literature from 45 BC, making it over 2000 years old.</p>
                       <!-- card -->
-                    <div class="flex justify-evenly flex-col lg:flex-row">
+                    <div class="flex justify-evenly flex-col
+                    items-center lg:flex-row">
                         <div class="card max-w-[150px] shadow-xl">
                             <figure class="px-10 pt-10">
                               <img src="./images/member1.png" alt="Shoes" class="rounded-xl" />
@@ -429,7 +431,7 @@
                               <h2 class="card-title text-white">Awlad Hossain</h2>
                               <p class="text-white">Fruits Expert</p>
                               <!-- font -->
-                              <div class="flex gap-2">
+                              <div class="flex gap-2 text-white ">
                                 <i class="fa-brands fa-facebook "></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin-in"></i>
                               </div>
                             </div>
@@ -443,7 +445,7 @@
                               <h2 class="card-title text-white">Safia Chowdhury</h2>
                               <p class="text-white">Fruits Expert</p>
                               <!-- font -->
-                              <div class="flex gap-2">
+                              <div class="flex gap-2 text-white">
                                 <i class="fa-brands fa-facebook "></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin-in"></i>
                               </div>
                             </div>
@@ -457,7 +459,7 @@
                               <h2 class="card-title text-white">Rokib Hossain</h2>
                               <p class="text-white">Fruits Expert</p>
                               <!-- font -->
-                              <div class="flex gap-2">
+                              <div class="flex gap-2 text-white">
                                 <i class="fa-brands fa-facebook "></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin-in"></i>
                               </div>
                             </div>
@@ -472,7 +474,7 @@
                               <h2 class="card-title text-white">Chaity</h2>
                               <p class="text-white">Fruits Expert</p>
                               <!-- font -->
-                              <div class="flex gap-2">
+                              <div class="flex gap-2 text-white">
                                 <i class="fa-brands fa-facebook "></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin-in"></i>
                               </div>
                             </div>
@@ -492,7 +494,7 @@
         </section>
         <!-- section 6 -->
         <section>
-            <div class="max-w-[1440px] mx-auto grid grid-cols-3 gap-12 my-8">
+            <div class="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 my-8">
                 <div>
                     <h1>Dedicated Team</h1>
                     <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
@@ -526,7 +528,7 @@
                         
                 <h2>Fruit Burst</h2></div>
            <!-- home etc -->
-           <div class="flex gap-16">
+           <div class="flex gap-1 lg:gap-16">
             <p>Home</p>
             <p>About Us</p>
             <p>Shop</p>
