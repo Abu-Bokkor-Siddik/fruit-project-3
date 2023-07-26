@@ -14,15 +14,15 @@
     <!-- nav -->
     <header>
         <nav>
-            <div class="max-w-[1440px] mx-auto bg-[#F85559;]  rounded-full ">
+            <div class="max-w-[1440px] mx-auto lg:bg-[#F85559;]  rounded-full ">
 
-                <div class="navbar h-auto lg:h-[120px] ">
-                    <div class="  w-auto">
-                      <div class="dropdown">
+                <div class="navbar h-auto lg:h-[120px] flex-row-reverse lg:flex-row ">
+                    <div class="  w-auto  ">
+                      <div class="dropdown   ">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
                           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-24">
                           <li><a>Home</a></li>
                           <li><a>About us</a></li>
                           <li><a>Shop</a></li>
@@ -33,27 +33,34 @@
                      
                     </div>
                     <div class=" hidden lg:flex ">
-                      <ul class="menu menu-horizontal px-1 flex gap-5">
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Shop</li>
+                      <ul class="menu menu-horizontal px-1 flex gap-5 lg:ml-12">
+                        <li class="text-white text-lg">Home</li>
+                        <li class="text-white text-lg">About Us</li>
+                        <li class="text-white  text-lg">Shop</li>
                         
-                        <li>All Fruits</li>
+                        <li class="text-white text-lg">All Fruits</li>
                       </ul>
                       
                       
 
                       
                     </div>
-
-                    <div class=" ml-0 lg:ml-[400px] flex items-center gap-1">
+                    <!-- sm ml disi  -->
+                    <div class=" ml-0 lg:ml-[200px] flex
+                    
+                    items-center gap-1 lg:gap-4 mr-80 lg:mr-0">
 
                         <img src="./images/logo.png" alt="">
                         
-                        <h2>Fruit Burst</h2>
+                        <h2 class=" lg:text-[40px] font-bold lg:text-white"><span class=" ">Fruit Burst</span></h2>
                     </div>
-                    <div class="navbar-end flex-1 pr-12">
-                      <input type="search " placeholder="Search here" class="pt-4 pb-4 pl-5 rounded-full">
+                    <div class="navbar-end flex-1 pr-12 relative">
+                      <input type="search " placeholder="Search here" class=" hidden lg:block pt-4 pb-4 pl-20 rounded-full"
+                      
+                      >
+                      <div class=" absolute right-16  hidden lg:block">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
                     </div>
                   </div>
 
@@ -73,10 +80,11 @@
                        <div class=" relative"> <img src="./images/banner1.png" class="w-full" /></div>
 
 
-                       <div class="absolute top-24 ml-0 lg:ml-96 text-center ]  ">
-                        <h1 class="text-[72px] text-white">Exotic tastes at your <br> doorstep</h1>
-                        <p class="my-3 text-white">We supply highly quality organic products</p>
-                        <button class="btn bg-[#F85559;] mt-6">Shop Now</button>
+                       <div class="absolute top-4 right-11 lg:right-[400px] lg:top-24 ml-0 lg:ml-96 text-center ]  ">
+                        <!-- update -->
+                        <h1 class="text-[24px] lg:text-[72px] text-white">Exotic tastes at your <br class="hidden lg:block"> doorstep</h1>
+                        <p class="text-sm lg:my-3 text-white">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559;] mt-0 lg:mt-6 text-white">Shop Now</button>
                        </div>
                       </div>
 
@@ -100,12 +108,15 @@
                             <div class=" relative"> <img src="./images/banner2.png" class="w-full" /></div>
      
      
-                            <div class="absolute top-24 ml-0 lg:ml-96 text-center ]  ">
-                             <h1 class="text-[72px] text-white">Exotic tastes at your <br> doorstep</h1>
-                             <p class="my-3 text-white">We supply highly quality organic products</p>
-                             <button class="btn bg-[#F85559;] mt-6">Shop Now</button>
+                            <div class="absolute top-4 right-11 lg:right-[400px] lg:top-24 ml-0 lg:ml-96 text-center ]  ">
+                              <!-- update -->
+                              <h1 class="text-[24px] lg:text-[72px] text-white">Exotic tastes at your <br class="hidden lg:block"> doorstep</h1>
+                              <p class="text-sm lg:my-3 text-white">We supply highly quality organic products</p>
+                              <button class="btn bg-[#F85559;] mt-0 lg:mt-6 text-white">Shop Now</button>
+                             </div>
                             </div>
-                           </div>
+      
+
                       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle">❮</a> 
                         <a href="#slide3" class="btn btn-circle">❯</a>
@@ -115,14 +126,18 @@
                     <div id="slide3" class="carousel-item relative w-full">
                         <div>
                             <div class=" relative"> <img src="./images/banner3.png" class="w-full" /></div>
+                          
      
-     
-                            <div class="absolute top-24 ml-0 lg:ml-96 text-center ]  ">
-                             <h1 class="text-[72px] text-white">Exotic tastes at your <br> doorstep</h1>
-                             <p class="my-3 text-white">We supply highly quality organic products</p>
-                             <button class="btn bg-[#F85559;] mt-6">Shop Now</button>
+                            <div class="absolute top-4 right-11 lg:right-[400px] lg:top-24 ml-0 lg:ml-96 text-center ]  ">
+                              <!-- update -->
+                              <h1 class="text-[24px] lg:text-[72px] text-white">Exotic tastes at your <br class="hidden lg:block"> doorstep</h1>
+                              <p class="text-sm lg:my-3 text-white">We supply highly quality organic products</p>
+                              <button class="btn bg-[#F85559;] mt-0 lg:mt-6 text-white">Shop Now</button>
+                             </div>
                             </div>
-                           </div>
+        
+
+
                       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn btn-circle">❮</a> 
                         <a href="#slide4" class="btn btn-circle">❯</a>
@@ -133,13 +148,17 @@
                         <div>
                             <div class=" relative"> <img src="./images/banner4.png" class="w-full" /></div>
      
-     
-                            <div class="absolute top-24 ml-0 lg:ml-96 text-center ]  ">
-                             <h1 class="text-[72px] text-white">Exotic tastes at your <br> doorstep</h1>
-                             <p class="my-3 text-white">We supply highly quality organic products</p>
-                             <button class="btn bg-[#F85559;] mt-6">Shop Now</button>
+                            <div class="absolute top-4 right-11 lg:right-[400px] lg:top-24 ml-0 lg:ml-96 text-center ]  ">
+                              <!-- update -->
+                              <h1 class="text-[24px] lg:text-[72px] text-white">Exotic tastes at your <br class="hidden lg:block"> doorstep</h1>
+                              <p class="text-sm lg:my-3 text-white">We supply highly quality organic products</p>
+                              <button class="btn bg-[#F85559;] mt-0 lg:mt-6 text-white">Shop Now</button>
+                             </div>
                             </div>
-                           </div>
+      
+                            
+
+
                       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide3" class="btn btn-circle">❮</a> 
                         <a href="#slide1" class="btn btn-circle">❯</a>
@@ -150,37 +169,44 @@
             </div>
         </section>
         <section>
-            <div class="max-w-[1196px] max-h-[250px] mx-auto bg-white flex gap-[90px]  ">
+            <div class="hidden lg:none">
+
+
+              <div class="w lg:max-w-[1196px]  lg:max-h-[250px] mx-auto bg-white flex gap-[90px]  top-[690px] left-64
+              absolute">
                <div>
                 <img src="./images/fruit1.png" alt="">
-                <p>Red Grap</p>
+                <p class="text-center">Red Grap</p>
                </div>
                <div>
                 <img src="./images/fruit2.png" alt="">
-                <p>Orange</p>
+                <p class="text-center">Orange</p>
                </div>
                <div>
                 <img src="./images/fruit3.png" alt="">
-                <p>Mango</p>
+                <p class="text-center">Mango</p>
                </div>
                <div>
                 <img src="./images/fruit4.png" alt="">
-                <p>Strawberry</p>
+                <p class="text-center">Strawberry</p>
                </div>
                <div>
                 <img src="./images/fruit5.png" alt="">
-                <p>Pomegranate</p>
+                <p class="text-center">Pomegranate</p>
                </div>
               </div>
+
+
+            </div>
         </section>
         <!-- 3section -->
         <section>
-            <div class="max-w-[1440px] mx-auto mt-24 flex justify-between items-center mb-12 ">
-                <div><h1 class="text-5xl font-extrabold mb-5">Deal of the day</h1>
-                <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical  <br> Latin literature from 45 BC, making it over 2000 years old.</p></div>
+            <div class="max-w-[1440px] mx-auto mt-24 flex justify-between items-center mb-12 flex-col lg:flex-row ">
+                <div><h1 class=" text-[20px] text-center lg:text-5xl font-extrabold mb-5">Deal of the day</h1>
+                <p class="text-sm text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical  <br> Latin literature from 45 BC, making it over 2000 years old.</p></div>
 
 
-                <div>
+                <div class="mt-6">
                     <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                         <div class="flex flex-col">
                           <span class="countdown font-mono text-5xl">
